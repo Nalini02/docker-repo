@@ -5,9 +5,9 @@
 ####  creating WORKDIR and setting the ENV-variables  ###
 
 
-From redis
-RUN yum install tree
-RUN yum install nano
+From centos
+RUN yum install -y tree
+RUN yum install -y nano
 RUN mkdir project
 
 ####  creating working directory as docker-work #####

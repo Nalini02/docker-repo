@@ -3,9 +3,10 @@
 ######START#####
 
 
-RUN From redis
-RUN yum install tree
-RUN yum install nano
+From alpine 
+RUN apk add tree
+RUN apk add curl
+RUN apk add nano
 RUN mkdir project
 #####creating a directory and copy the files into that .#####
 

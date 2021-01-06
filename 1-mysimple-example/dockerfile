@@ -1,6 +1,6 @@
 #####It is my first simple dockerfile######
-RUN From redis
-RUN yum install tree
-RUN yum install nano
+FROM  centos
+RUN yum install -y  tree
+RUN yum install -y  nano
 RUN mkdir project
 
